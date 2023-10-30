@@ -1,7 +1,7 @@
 {
 	"id": "highlights-panel",
 	"name": "Highlights Panel",
-	"version": "1.0.5",
+	"version": "1.0.8",
 	"minAppVersion": "0.15.0",
 	"description": "This plugin displays the markdown highlights within the currently active note in the side panel.",
 	"author": "Frankie Flood",
