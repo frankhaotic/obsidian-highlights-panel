@@ -23,10 +23,6 @@ export default class HighlightsPlugin extends Plugin {
 		this.openHighlightView();
 	}
 
-	onunload() {
-		this.workspace.detachLeavesOfType(HIGHLIGHTS_VIEW_TYPE);
-	}
-
 	setHighlights() {
 		const activeFile = this.workspace.getActiveFile() as TFile;
 		const highlightsList = this.getHighlights(activeFile);
