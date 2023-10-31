@@ -3,9 +3,9 @@
 	"name": "Highlights Panel",
 	"version": "1.0.9",
 	"minAppVersion": "0.15.0",
-	"description": "This plugin displays the markdown highlights within the currently active note in the side panel.",
+	"description": "Display markdown highlights within the currently active note in the side panel.",
 	"author": "Frankie Flood",
-	"authorUrl": "",
+	"authorUrl": "https://github.com/frankhaotic/",
 	"fundingUrl": "",
 	"isDesktopOnly": false
 }
