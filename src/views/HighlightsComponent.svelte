@@ -22,13 +22,14 @@
         const activeMarkdownView = myPlugin.app.workspace.getActiveViewOfType(MarkdownView);
 
         if(!activeMarkdownView) {
-            new Notice("Failed to open")
+            new Notice("Failed to open file")
             return;
         }
 
         try {
             activeMarkdownView.setEphemeralState({ line: highlight.line });
         } catch (error) {
+            new Notice("Failed to navigate to highlight")
             console.error(error);
         }
     }
