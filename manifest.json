@@ -1,7 +1,7 @@
 {
 	"id": "highlights-panel",
 	"name": "Highlights Panel",
-	"version": "1.0.9",
+	"version": "1.0.10",
 	"minAppVersion": "0.15.0",
 	"description": "Display markdown highlights within the currently active note in the side panel.",
 	"author": "Frankie Flood",
